@@ -17,7 +17,7 @@ final class DefaultUserRepository: UserRepository {
      This function execute the completion closure with user from database if it exists
      else it makes an url request and then return the user. If any error occured the user object
      will be nil and the error will have a value
-     - Parameter completion: Coluse to be exucted on response received
+     - Parameter completion: Closure to be exucted on response received
     */
     func getUser(completion: ((User?, NetworkError?) -> Void)?) {
         let realm = try! Realm()
@@ -81,7 +81,7 @@ final class DefaultUserRepository: UserRepository {
     /**
      This function execute the completion closure with user returned and parsed from an url request response.
      If any error occured the user object will be nil and the error will have a value
-     - Parameter completion: Coluse to be exucted on request response
+     - Parameter completion: Closure to be exucted on request response
     */
     private func getUserFromServer(_ completion: ((User?, NetworkError?) -> Void)?) {
         guard let url = URL(string: Constants.baseURL) else {

@@ -17,7 +17,7 @@ final class DefaultDevicesRepository: DevicesRepository {
      This function execute the completion closure with list of devices from database if they exist
      else it makes an url request and then return the that list. If any error occured the list object
      will be nil and the error will have a value
-     - Parameter completion: Coluse to be exucted on response received
+     - Parameter completion: Closure to be exucted on response received
     */
     func getDevices(completion: (([ConnectedObject]?, NetworkError?) -> Void)?) {
         let realm = try! Realm()
@@ -168,7 +168,7 @@ final class DefaultDevicesRepository: DevicesRepository {
     /**
      This function execute the completion closure with list of devices returned and parsed from an url request response.
      If any error occured the list object will be nil and the error will have a value
-     - Parameter completion: Coluse to be exucted on request response
+     - Parameter completion: Closure to be exucted on request response
     */
     private func getDevicesFromServer(_ completion: (([ConnectedObject]?, NetworkError?) -> Void)?) {
         guard let url = URL(string: Constants.baseURL) else {
