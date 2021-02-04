@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  MyHome
+
+  Created by Salmen NOUIR on 31/01/2021.
+  
+*/
+
+//Tabbar
+"HomeTitle" = "Acceuil";
+"ProfileTitle" = "Profil";
+
+//Home
+"HomeMainTitle" = "Gérer votre maison";
+"AlertDoneButton" = "OK";
+"ErrorTitle" = "ERREUR";
+"LightValue" = "Intensité";
+"HeaterValue" = "Température: %.01f°";
+"RollerValue" = "Position";
+
+//Filters
+"FiltersTitle" = "Choisissez les types d'appareils à afficher";
+"DoneButtonTitle" = "Appliquer";
+"CancelButtonTitle" = "Annuler";
+"LightName" = "lumière";
+"HeaterName" = "chauffage";
+"RollerName" = "volet roulant";
+
+//NetworkError
+"NoInternetError" = "Vous n'êtes pas connecté à l'internet.";
+"DefaultError" = "Une erreur est survenue lors de la requête. Veuillez reessayer plus tard.";
+"NotFound" = "Ressources que vous recherchez non trouvées";
+
+//Profile
+"ProfileMainTitle" = "Votre profil";
+"FirstNameTitle" = "Prénom";
+"LastNameTitle" = "Nom";
+"BirthDateTitle" = "Date de naissance";
+"AddressTitle" = "Adresse";
+
+//InfoEdition
+"EditFirstNameTitle" = "Saisissez votre prénom:";
+"EditLastNameTitle" = "Saisissez votre nom:";
+"EditBirthDateTitle" = "Saisissez votre date de naissance:";
+"EditAddressTitle" = "Saisissez votre adresse:";
+
+//AddressEdition
+"StreetCodeTitle" = "Numéro et libellé dans la voie";
+"StreetTitle" = "Nom de la voie";
+"CityTitle" = "Ville";
+"PostalCodeTitle" = "Code postal";
+"CountryTitle" = "Pays";
+"EditInfoSaveBtnTitle" = "Enregistrer";

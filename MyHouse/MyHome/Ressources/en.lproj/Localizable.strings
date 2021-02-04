@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  MyHome
+
+  Created by Salmen NOUIR on 31/01/2021.
+  
+*/
+
+//Tabbar
+"HomeTitle" = "Home";
+"ProfileTitle" = "Profile";
+
+//Home
+"HomeMainTitle" = "Manage your home";
+"AlertDoneButton" = "OK";
+"ErrorTitle" = "ERROR";
+"LightValue" = "Intensity";
+"HeaterValue" = "Temperature: %.01f°";
+"RollerValue" = "Position";
+
+//Filters
+"FiltersTitle" = "Choose types for devices to show";
+"DoneButtonTitle" = "Done";
+"CancelButtonTitle" = "Cancel";
+"LightName" = "light";
+"HeaterName" = "heater";
+"RollerName" = "roller shutter";
+
+//NetworkError
+"NoInternetError" = "You are not connected to the internet.";
+"DefaultError" = "An error occurred during the request. Please try again later.";
+"NotFound" = "Ressources you are looking for not found";
+
+//Profile
+"ProfileMainTitle" = "Your profile";
+"FirstNameTitle" = "First name";
+"LastNameTitle" = "Last name";
+"BirthDateTitle" = "Birthdate";
+"AddressTitle" = "Address";
+
+//InfoEdition
+"EditFirstNameTitle" = "Enter your first name:";
+"EditLastNameTitle" = "Enter your last name:";
+"EditBirthDateTitle" = "Enter your birthdate:";
+"EditAddressTitle" = "Enter your address:";
+
+//AddressEdition
+"StreetCodeTitle" = "House number";
+"StreetTitle" = "Street name";
+"CityTitle" = "City";
+"PostalCodeTitle" = "Postal code";
+"CountryTitle" = "Country";
+"EditInfoSaveBtnTitle" = "Save";
